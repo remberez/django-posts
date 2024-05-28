@@ -1,0 +1,16 @@
+.containter_post {
+    margin: 20px auto;
+    width: 700px;
+}
+
+.title_post {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.title_text {
+    font-size: 40px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+    background-color: rgb(206, 206, 206);
+}
+
+.header {
+    background-color: rgb(68, 68, 199);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 50px;
+    padding: 15px 50px;
+    text-decoration: none;
+
+}
+
+.logo a, .nav a {
+    color: rgb(255, 255, 255);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    color: white;
+    margin-right: 30px;
+}
+
+.nav_section {
+    margin: 0 0 0 30px;
+}

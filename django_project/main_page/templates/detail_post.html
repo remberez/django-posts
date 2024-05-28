@@ -1,0 +1,18 @@
+{% extends 'header.html' %}
+{% block style %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/post.css'%}" type="text/css">
+{% endblock %}
+{% block content %}
+<div class="post">
+    <div class="title">
+        {{ title }}
+    </div>
+    <div class="date">
+        Дата создания: {{ date_created }}
+    </div>
+    <div class="text">
+        {{ text }}
+    </div>
+</div>
+{% endblock %}

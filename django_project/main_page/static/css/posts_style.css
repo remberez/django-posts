@@ -1,0 +1,22 @@
+.posts {
+    margin: 0 auto;
+}
+
+.post {
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: white;
+    width: 1200px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.read {
+    margin-top: 20px;
+    color: black;
+}

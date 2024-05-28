@@ -1,0 +1,22 @@
+.post {
+    margin: 0 auto;
+    background-color: white;
+    width: 1500px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 70px;
+}       
+
+.text {
+    font-size: 25px;
+}
+
+.date {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+

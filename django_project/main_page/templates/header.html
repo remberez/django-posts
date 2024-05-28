@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} Title {% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css'%}" type="text/css">
+    {% block style %}
+    {% endblock %}
+</head>
+<body>
+    <div class="containter">
+        <header>
+            <div class="header">
+                <div class='logo'>
+                    <a href="{% url 'index' %}">Посты</a>
+                </div>
+                <div class='nav'>
+                    <div class='nav_section'>
+                        <a href="#">Мои посты</a>
+                    </div>
+                    <div class='nav_section'>
+                        <a href="#">Мой профиль</a>
+                    </div>
+                    <div class='nav_section'>
+                        <a href="#">Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
